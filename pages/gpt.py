@@ -1,6 +1,5 @@
 import streamlit as st
 from st_audiorec import st_audiorec
-from streamlit_mic_recorder import mic_recorder
 from xtts_korean import *
 from gpt import *
 from stt import *
@@ -20,7 +19,7 @@ st.header("음성으로 질문하기")
 st.write("질문하고 싶은 내용을 음성으로 녹음해주세요.")
 
 #openai API 키 인증
-OPENAI_API_KEY = "api"
+OPENAI_API_KEY = "api_key"
 
 wav_audio_data = st_audiorec()
 if wav_audio_data is not None:
