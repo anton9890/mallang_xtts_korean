@@ -1,0 +1,4 @@
+model/config.json
+model/model.pth
+model/vocab.json
+__pycache__/xtts_korean.cpython-39.pyc
