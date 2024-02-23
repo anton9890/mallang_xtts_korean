@@ -19,7 +19,7 @@ st.header("음성으로 질문하기")
 st.write("질문하고 싶은 내용을 음성으로 녹음해주세요.")
 
 #openai API 키 인증
-OPENAI_API_KEY = "api"
+OPENAI_API_KEY = "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"
 
 wav_audio_data = st_audiorec()
 if wav_audio_data is not None:
