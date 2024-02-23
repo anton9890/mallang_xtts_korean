@@ -1,0 +1,7 @@
+Just solved this problem.
+1.Generate temporary SSL authentication
+openssl genrsa 2048 > host.key
+chmod 400 host.key
+openssl req -new -x509 -nodes -sha256 -days 365 -key host.key -out host.cert
+2.streamlit run with https
+streamlit run xx.py --server.sslCertFile host.cert --server.sslKeyFile=host.key
