@@ -16,7 +16,8 @@ streamlit run app.py
 
 ---
 # streamlit 데모
-![demo](https://github.com/pincesslucy/mallang_xtts_korean/assets/98650288/d567d0af-b183-4edc-936f-adcee1dff418)
+![demo](https://github.com/pincesslucy/mallang_xtts_korean/assets/98650288/d0292b83-8271-4c9c-8c83-f0df8fee4e9f)
+
 
 ---
 # changed
