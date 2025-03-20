@@ -11,7 +11,7 @@ data : 감성 및 발화스타일 동시 고려 음성합성 데이터
 
 ```bash
 pip install requirements.txt
-streamlit run app.py
+streamlit tts app.py
 ```
 
 ---
